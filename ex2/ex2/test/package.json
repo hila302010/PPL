@@ -1,0 +1,30 @@
+{
+  "name": "ppl",
+  "version": "1.0.0",
+  "description": "Code for \"Principles of Programming Languages\" course",
+  "main": "index.js",
+"scripts": {
+  "test": "mocha --require ts-node/register ./test/**/*.test.ts",
+  "coverage": "nyc --reporter=html npm test"
+}
+,
+  "keywords": [],
+  "author": "Michael Elhadad",
+  "license": "MIT",
+  "dependencies": {
+    "ramda": "^0.27.2",
+    "s-expression": "^3.1.1"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.15",
+    "@types/jest": "^29.5.12",
+    "@types/mocha": "^8.2.0",
+    "@types/node": "^14.14.28",
+    "@types/ramda": "^0.27.39",
+    "chai": "^4.3.0",
+    "mocha": "^10.4.0",
+    "nyc": "^15.1.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3"
+  }
+}
